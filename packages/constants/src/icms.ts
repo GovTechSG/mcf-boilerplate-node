@@ -84,6 +84,13 @@ export const JOB_STATUSES = [
   {id: 103, status: 'Re-open'},
 ];
 
+export enum JOB_STATUS {
+  CLOSED = 9,
+  DRAFT = 83,
+  OPEN = 102,
+  REOPEN = 103,
+};
+
 export const DISTRICTS = [
   {
     id: 1,
